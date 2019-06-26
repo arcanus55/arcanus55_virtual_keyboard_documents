@@ -1,2 +1,2 @@
 'use strict';
-snck.q("Protect What is Most|Important to You!");
+snck.q("Can you keep a Secret?|Protect What is Important.");
