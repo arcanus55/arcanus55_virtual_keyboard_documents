@@ -6,7 +6,7 @@ function nextSnck(){
   snck.q( aMsg[ nNextSnck++ ]);
 }
          
-setTimeout(nextSnck
-setTimeout(nextSnck, 68000);
+setTimeout(nextSnck, 17600);
+setTimeout(nextSnck, 680000);
 setTimeout(nextSnck, 148000);
 setTimeout(nextSnck, 84000);
