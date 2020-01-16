@@ -2,7 +2,7 @@
 var nNextSnck = 0;
 
 function nextSnck(){
-  var aMsg = ["Identity Theft is an Existential Crisis|Secure and Endure", "Secret Now. Forever Secret","Can you keep a Secret?","Listen, times are a-changin|Your entire existence is now digital","Take 55 seconds to think|about your privacy","Trust me, identity theft|is a very dark rabbit hole"];
+  var aMsg = ["Identity Theft is an Existential Crisis.|Secure and Endure.", "Secret Now. Forever Secret","Can you keep a Secret?","Listen, times are a-changin|Your entire existence is now digital","Take 55 seconds to think|about your privacy","Trust me, identity theft|is a very dark rabbit hole"];
   snck.q( aMsg[ nNextSnck++ ]);
 }
          
