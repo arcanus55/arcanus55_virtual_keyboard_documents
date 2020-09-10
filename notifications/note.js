@@ -2,7 +2,7 @@
 var nNextSnck = 0;
 
 function nextSnck(){
-  var aMsg = ["Seriously Ironclad Brilliant","You dont need a Lawyer|to Create a Last Will and Testament", "Identity Theft is an Existential Crisis.|Secure and Endure.", "Secure Now. Forever Secure","Can you keep a Secret?","Listen, times are a-changin|Your entire existence is now digital","Take 55 seconds to think|about your privacy","Trust me, identity theft|is a very dark rabbit hole"];
+  var aMsg = ["Seriously Ironclad Brilliant","Buy now and get the|free Gold Key", "Identity Theft is an Existential Crisis.|Secure and Endure.", "Secure Now. Forever Secure","Can you keep a Secret?","Listen, times are a-changin|Your entire existence is now digital","Take 55 seconds to think|about your privacy","Trust me, identity theft|is a very dark rabbit hole"];
   snck.q( aMsg[ nNextSnck++ ]);
 }
 setTimeout(nextSnck, 20800);
