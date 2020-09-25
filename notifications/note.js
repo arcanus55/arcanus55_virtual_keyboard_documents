@@ -16,3 +16,4 @@ setTimeout(nextSnck, 320000);
 setTimeout(nextSnck, 208000);
 setTimeout(nextSnck, 210600);
 setTimeout(nextSnck, 280600);
+setTimeout(function(){ playAudioFile( 7 ); if( snck ) snck.q( "55 Minutes on this site|Click Chat if you need help 🌴"); }, (3300 * 1000));
