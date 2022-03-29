@@ -2,7 +2,7 @@
 var nNextSnck = 0;
 
 function nextSnck(){
-  var aMsg = ["Sale 🔥 Ends|Soon","Free 🚀 Shipping!|Over $59","Designed to Survive|Extreme Conditions", "Ultimate Resilience", "Waterproof 🔑 Hack Proof|Keypad Encrypted USB","Buy now and get a|free 🔑 Antique Key|Bottle Opener", "Identity Theft is an Existential Crisis.|Secure and Endure.", "Secure Now. Forever Secure","Can you keep a Secret?","Listen, times are a-changin|Your entire existence is now digital","Take 55 seconds to think 🎲|about your privacy","Trust me, identity theft|is a very dark rabbit hole","Need help? 🎯|Click Chat"];
+  var aMsg = ["Sale 🔥 Ends|Soon","Free 🚀 Shipping!|Over $60","Designed to Survive|Extreme Conditions", "Ultimate Resilience", "Waterproof 🔑 Hack Proof|Keypad Encrypted USB","Buy now and get a|free 🔑 Antique Key|Bottle Opener", "Identity Theft is an Existential Crisis.|Secure and Endure.", "Secure Now. Forever Secure","Can you keep a Secret?","Listen, times are a-changin|Your entire existence is now digital","Take 55 seconds to think 🎲|about your privacy","Trust me, identity theft|is a very dark rabbit hole","Need help? 🎯|Click Chat"];
   snck.q( aMsg[ nNextSnck++ ]);
 }
 setTimeout(nextSnck,  11800);
